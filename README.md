@@ -6,6 +6,6 @@ I hope you get as much use of this as I did.
 ## Tests
 
 - [x] Pipe to STDIN
-- [ ] Pipe to STDOUT
+- [x] Pipe to STDOUT
 - [ ] Pipe to STDIN & STDOUT
 - [ ] Pipes with fork() -> exec()

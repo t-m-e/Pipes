@@ -18,4 +18,5 @@ for f in `ls src`; do
     rm pipes
 
     echo "=== [/test src/$f] ====================="
+    echo ""
 done
