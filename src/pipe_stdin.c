@@ -1,8 +1,3 @@
-/* +========+                        +=======+
- * | PARENT |>> STDOUT >>>>> STDIN >>| CHILD |
- * +========+    WRITE        READ   +=======+
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

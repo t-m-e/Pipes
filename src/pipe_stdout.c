@@ -26,6 +26,7 @@ int main() {
         dup2(fdIn[1], 1);
 
         // throw something into the wire...
+        fprintf(stderr, "    -> %s\n", buffer);
         printf("%s", buffer);
 
         // close the dupped fd;
