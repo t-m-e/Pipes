@@ -1,0 +1,21 @@
+#!/bin/bash 
+
+for f in `ls src`; do
+    echo "[+] compiling ./pipes for '$f'"
+    gcc -g src/$f -o pipes
+    if [[ ! "$?" -eq "0" ]]; then
+        echo "[-] compilation failed"
+        continue
+    fi
+
+    echo "[+] ./pipes"
+    ./pipes
+    if [[ ! "$?" -eq "0" ]]; then 
+        echo "[-] execution failed"
+    fi
+
+    echo "[+] removing ./pipes"
+    rm pipes
+
+    echo "=== [/test src/$f] ====================="
+done
