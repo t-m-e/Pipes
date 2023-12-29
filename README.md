@@ -7,5 +7,5 @@ I hope you get as much use of this as I did.
 
 - [x] Pipe to STDIN
 - [x] Pipe to STDOUT
-- [ ] Pipe to STDIN & STDOUT
+- [x] Pipe to STDIN & STDOUT
 - [ ] Pipes with fork() -> exec()
