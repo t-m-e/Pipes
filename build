@@ -18,6 +18,6 @@ for f in `ls src`; do
     echo "[+] removing ./pipes"
     rm pipes
 
-    echo "=== [/test src/$f] ====================="
+    echo "=== [end test src/$f] ====================="
     echo ""
 done
