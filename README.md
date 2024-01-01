@@ -8,7 +8,7 @@ I hope you get as much use of this as I did.
 - [x] Pipe to STDIN
 - [x] Pipe to STDOUT
 - [x] Pipe to STDIN & STDOUT
-- [ ] Named Pipe to STDIN
-- [ ] Named Pipe to STDOUT 
-- [ ] Named Pipe to STDIN & STDOUT
+- [x] Named Pipe to STDIN
+- [x] Named Pipe to STDOUT 
+- [x] Named Pipe to STDIN & STDOUT
 - [ ] Named Pipe fork() -> exec() 
