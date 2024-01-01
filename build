@@ -10,8 +10,9 @@ for f in `ls src`; do
 
     echo "[+] ./pipes"
     ./pipes
-    if [[ ! "$?" -eq "0" ]]; then 
-        echo "[-] execution failed"
+    RET="$?"
+    if [[ ! "$RET" -eq "0" ]]; then 
+        echo "[-] execution failed ($RET)"
     fi
 
     echo "[+] removing ./pipes"
